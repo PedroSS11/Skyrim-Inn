@@ -1,0 +1,92 @@
+.b {
+    border: 2px solid rgb(106, 255, 0);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* ------------------------------------------------ */
+body {
+    background-color: #121212;
+    font-family: serif;
+}
+
+
+/* HEADER E NAV */
+header {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+}
+
+.bg-nav {
+    background-color: #272727;
+}
+
+.nav-link {
+    color: #ccc !important;
+}
+
+.nav-link:hover {
+    color: #7a7a7a !important;
+}
+
+#logoNav {
+    background-image: url(https://elderscrolls.bethesda.net/images/franchise-icon-elderscrolls.svg?b311f6752dbd0cab50f4dbff2a12afcd);
+    clip: auto;
+    color: transparent;
+    display: block;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 0;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 39px;
+    margin: 0 16px 0 0;
+    order: 0;
+    width: 172px;
+}
+
+/* ------------------------------------------------ */
+
+#home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#home h3 {
+    font-size: clamp(1em, 1.5vw, 2em);
+}
+
+#home p {
+    font-size: clamp(0.6em, 0.7vw, 1.2em);
+}
+
+
+
+.divCapa {
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.divTrailer iframe{
+    margin-top: 1em;
+}
+
+.tituloTrailer {
+    padding: 1em 0 1em 0;
+    border-bottom: 2px solid #ccc;
+    color: #eee;
+    letter-spacing: 0.080em;
+    text-transform: uppercase
+}
+
+
+
