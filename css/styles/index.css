@@ -9,7 +9,7 @@
 /* ------------------------------------------------ */
 body {
     background-color: #121212;
-    font-family: serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -88,5 +88,8 @@ header {
     text-transform: uppercase
 }
 
+.tituloTrailer p {
+    text-transform: none;
+}
 
 
