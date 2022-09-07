@@ -6,6 +6,8 @@ body {
     background-image: none;
 }
 
+
+/* WIKI PAGE */
 .titulo {
     border-bottom: 1px solid #000;
 }
@@ -16,4 +18,32 @@ body {
 
 .mapa {
     border: 1px solid #000;
+}
+
+/* LISTA CIDADES DE SKYRIM */
+.listLocations {
+    list-style: none;
+    background-color: #121212;
+    width: 100%;
+
+}
+
+.itemsLocations {
+    padding: 10px 20px;
+    max-width: 200px;
+    
+}
+
+.linkLocations {
+    color: #fff;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+.linkLocations img {
+    margin-right: 10px;
+}
+
+.linkLocations:hover {
+    color: #ff0000;
 }
