@@ -23,7 +23,7 @@ body {
 /* LISTA CIDADES DE SKYRIM */
 .listLocations {
     list-style: none;
-    background-color: #121212;
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
 
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .linkLocations {
-    color: #fff;
+    color: #000;
     letter-spacing: 0.1em;
     font-weight: bold;
 }
