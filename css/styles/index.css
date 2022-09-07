@@ -30,6 +30,41 @@ header {
 
 }
 
+footer {
+    height: 30vh;
+    width: 100%;
+    background-color: #121212;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer ul li {
+    padding: 1em;
+    margin: 10px;
+}
+
+footer ul li a{
+    color: #eee;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+footer ul li a:hover {
+    color: #000;
+    background-color: #fff;
+
+}
+
+/* ------- NAV------ */
+
 .bg-nav {
     background-color: #272727;
 }
@@ -63,7 +98,7 @@ header {
     width: 172px;
 }
 
-/* ------------------------------------------------ */
+/* -----------------  HOME -------------------- */
 
 #home {
     height: 100vh;
@@ -103,13 +138,21 @@ header {
     text-transform: none;
 }
 
+
+/* -------------- CARDS ------------------- */
+
 .card {
     background-color: #000 !important;
     color: #fff !important;
 }
 
+
 .bg-content {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.mainHomeTitle {
+    border-bottom: 2px solid #fff;
 }
 
 @media (min-width:240px) and (max-width:400px) {
