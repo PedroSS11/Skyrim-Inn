@@ -8,62 +8,67 @@ const cidadesPages = () => {
     dawnstarTag.addEventListener("click", abreDawsntar)
 
     //Falkeath
-    const falkeathTag = document.getElementById('falkeath')
-    const abreFalkeath = () => {
-        window.open('index.html')
+    const falkreathTag = document.getElementById('falkreath')
+    const abreFalkreath = () => {
+        window.open('falkeath.html')
     }
-    falkeathTag.addEventListener("click", abreFalkeath)
+    falkreathTag.addEventListener("click", abreFalkreath)
 
     //Markarth
     const markarthTag = document.getElementById('markarth')
     const abreMarkarth = () => {
-        window.open('index.html')
+        window.open('markarth.html')
     }
     markarthTag.addEventListener("click", abreMarkarth)
 
     //Morthal
     const morthalTag = document.getElementById('morthal')
     const abreMorthal = () => {
-        window.open('index.html')
+        window.open('morthal.html')
     }
     morthalTag.addEventListener("click", abreMorthal)
 
     //Riften
     const riftenTag = document.getElementById('riften')
     const abreRiften = () => {
-        window.open('index.html')
+        window.open('riften.html')
     }
     riftenTag.addEventListener("click", abreRiften)
 
     //Solitude
     const solitudeTag = document.getElementById('solitude')
     const abreSolitude = () => {
-        window.open('index.html')
+        window.open('solitude.html')
     }
     solitudeTag.addEventListener("click", abreSolitude)
 
     //Whiterun
     const whiterunTag = document.getElementById('whiterun')
     const abreWhiterun = () => {
-        window.open('index.html')
+        window.open('whiterun.html')
     }
     whiterunTag.addEventListener("click", abreWhiterun)
 
     //Windhelm
     const windhelmTag = document.getElementById('windhelm')
     const abreWindhelm = () => {
-        window.open('index.html')
+        window.open('windhelm.html')
     }
     windhelmTag.addEventListener("click", abreWindhelm)
 
     //Winterhold
     const winterholdTag = document.getElementById('winterhold')
     const abreWinterhold = () => {
-        window.open('index.html')
+        window.open('winterhold.html')
     }
     winterholdTag.addEventListener("click", abreWinterhold)
 }
+
 cidadesPages()
+
+// ====================================== 
+
+
 
 
 

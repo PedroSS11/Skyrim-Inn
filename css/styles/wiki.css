@@ -47,3 +47,21 @@ body {
 .linkLocations:hover {
     color: #ff0000;
 }
+
+
+/* BAIXO WIKI */
+.bg-wiki {
+    background-color: #272727;
+    color: #eee;
+}
+
+.bg-wiki img {
+    border: 3px solid #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bg-wiki img:hover {
+    opacity: 0.6;
+}
+
